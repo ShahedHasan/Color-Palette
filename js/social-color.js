@@ -1,5 +1,5 @@
 async function fetchSocialColor() {
-    const response = await fetch("json/social-color.json");
+    const response = await fetch("https://raw.githubusercontent.com/AvinashProgrammer/Color-Pallete/main/json/social-color.json");
     const data = await response.json();
     return data;
 }
