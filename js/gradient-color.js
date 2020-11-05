@@ -1,5 +1,5 @@
 async function fetchColor() {
-    const response = await fetch("json/gradient-color.json");
+    const response = await fetch("https://raw.githubusercontent.com/AvinashProgrammer/Color-Pallete/main/json/gradient-color.json");
     const data = await response.json();
     //console.log(data);
     return data;
