@@ -204,7 +204,6 @@ fetchMaterialColor().then(materialC => {
         
         // This code is used to copy colors
         const colorBox = document.querySelectorAll(".colorBox");
-        console.log(colorBox);
 
         colorBox.forEach(box => {
             box.addEventListener("click", e => {
