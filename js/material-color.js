@@ -1,10 +1,10 @@
 async function fetchMaterialColor() {
-    const response = await fetch("json/material-color.json");
+    const response = await fetch("https://raw.githubusercontent.com/AvinashProgrammer/Color-Pallete/main/json/material-color.json");
     const data = response.json();
     return data;
 }
 async function fetchColorPanel() {
-    const response = await fetch("json/color-panel.json");
+    const response = await fetch("https://raw.githubusercontent.com/AvinashProgrammer/Color-Pallete/main/json/color-panel.json");
     const data = response.json();
     return data;
 }
